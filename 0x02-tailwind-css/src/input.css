@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Make grid stack into one column on small screens */
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
